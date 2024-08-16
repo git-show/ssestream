@@ -10,7 +10,7 @@ const iepadding = Array(2049).join(' ');
 
 const DEFAULT_HEADERS = {
   'Content-Type': 'text/event-stream; charset=utf-8',
-  'Transfer-Encoding': 'identity',
+  // 'Transfer-Encoding': 'identity', // upstream sent unknown "Transfer-Encoding": "identity" while reading response header from upstream
   'Cache-Control': 'no-cache',
   Connection: 'keep-alive',
 }
